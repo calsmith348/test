@@ -6,8 +6,7 @@ Renthub Scraping Platform
 
 You can download from here [WampServer](https://wampserver.aviatechno.net/)
 
-## Install Composer and run this command
-
+## Install Composer
 You can download from here [Composer](https://getcomposer.org/download/)
 
 ## Clone git repo and run composer install command
@@ -18,6 +17,20 @@ git clone "git-repository-url.git"
 
 ```bash
 composer install
+```
+
+## Install Python
+```bash
+You can download from here [Python](https://www.python.org/downloads/)
+```
+
+```bash
+Open "python_scripts" folder and run following commands
+pip install selenium
+pip install bs4
+pip install undetected-chromedriver
+pip install setuptools
+pip install pandas
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
